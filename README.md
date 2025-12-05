@@ -4,7 +4,7 @@
 > End-to-end data engineering project built on Azure + Databricks to ingest Formula 1 race data from the Ergast API, store it in Parquet, and provide SQL analysis and dashboards (Dominant Drivers, Dominant Teams) and Databricks Dashboards. This repository contains notebooks, pipeline definitions, sample code, and instructions to reproduce the solution.
 ---
 
-<img src = "https://github.com/godswill-analytics/Formula-1-Race-Analytics-Project-Databricks-on-Azure/blob/main/project-images/f1-car.jpg">
+<img src = "https://github.com/godswill-analytics/Formula-1-Race-Analytics-Project-Using-Databricks-on-Azure/blob/main/project-images/f1-car.jpg">
 
 ## A Brief Introduction to Formula 1
 
@@ -36,7 +36,7 @@ A Formula 1 championship season refers to a specific year in which a series of F
 ## Architecture Overview
 
 
-<img src = "https://github.com/godswill-analytics/Formula-1-Race-Analytics-Project-Databricks-on-Azure/blob/main/project-images/formula1-solution-architecture.png">
+<img src = "https://github.com/godswill-analytics/Formula-1-Race-Analytics-Project-Using-Databricks-on-Azure/blob/main/project-images/formula1-solution-architecture.png">
 
 High-level flow:
 
@@ -325,10 +325,10 @@ df = df.withColumn('ingest_ts', current_timestamp()) \
 
 #### Dominant Drivers
 
-<img src = "https://github.com/godswill-analytics/Formula-1-Race-Analytics-Project-Databricks-on-Azure/blob/main/project-images/dominant_drivers.png">
+<img src = "https://github.com/godswill-analytics/Formula-1-Race-Analytics-Project-Using-Databricks-on-Azure/blob/main/project-images/dominant_drivers.png">
 
 ### Dominant Teams
 
-<img src = "https://github.com/godswill-analytics/Formula-1-Race-Analytics-Project-Databricks-on-Azure/blob/main/project-images/dominant_teams.png">
+<img src = "https://github.com/godswill-analytics/Formula-1-Race-Analytics-Project-Using-Databricks-on-Azure/blob/main/project-images/dominant_teams.png">
 
 
